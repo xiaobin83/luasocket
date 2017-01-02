@@ -13,4 +13,5 @@ Release
 *.swp
 *.suo
 x64
-
+*.VC.db
+*.VC.opendb
