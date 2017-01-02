@@ -90,6 +90,12 @@ MIME_API int luaopen_mime_core(lua_State *L)
     return 1;
 }
 
+MIME_API int luaopen_mime(lua_State *L)
+{
+	return luaopen_mime_core(L);
+}
+
+
 /*=========================================================================*\
 * Global Lua functions
 \*=========================================================================*/
